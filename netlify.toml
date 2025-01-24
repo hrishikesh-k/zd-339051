@@ -1,5 +1,8 @@
 [[redirects]]
   force = true
   from = "/*"
+  signed = "SECRET"
   status = 200
-  to = "https://hk-host.onrender.com/:splat"
+  to = "https://zd-339051.onrender.com/:splat"
+  [redirects.headers]
+    x-from = "netlify"
